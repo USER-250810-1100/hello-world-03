@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.job-listing {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.job-listing:hover {
+    background: #f9f9f9;
+}
+
+.job-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.job-description {
+    color: #666;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: #35424a;
+    padding: 10px 15px;
+    border: 1px solid #35424a;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background: #35424a;
+    color: #ffffff;
+}
+
+.pagination a:hover {
+    background: #dddddd;
+}
