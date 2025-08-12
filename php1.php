@@ -10,7 +10,10 @@ for($i=0;$i<=10;$i++) {
   echo $i . "\n";
 }
 ?>
-finished
+<br>
+<font size=7 color=RED>finished</font>
+<br>
+
 
 </body>
 </html>
